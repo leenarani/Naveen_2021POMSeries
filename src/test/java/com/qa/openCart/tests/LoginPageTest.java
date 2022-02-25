@@ -15,7 +15,7 @@ public class LoginPageTest extends BaseTest {
 		
 	}
 
-	@Test
+	@Test(enabled = false)
 	public void LoginPageURLTest(){
 		String url =loginPage.getLoginPageUrl();
 		System.out.println("LoginPage url is :"+ url);
